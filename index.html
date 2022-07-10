@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sorpresa 03-07</title>
+
+    <!--Carpetas-->
+    <link href="css/player.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/video.css">
+
+</head>
+
+<body bgcolor="#262626">
+    <nav>
+        <div class="nav-content">
+          <div class="toggle-btn">
+            <i class='bx bx-plus'></i>
+          </div>
+          <span style="--i:1;">
+            <a href="./carta/index.html"><i class='bx bxs-home'></i></a>
+          </span>
+          <span style="--i:2;">
+            <a href="./gatito/index.html"><i class='bx bxs-camera'></i></a>
+          </span>
+          <span style="--i:3;">
+            <a href="./album/index.html"><i class='bx bxs-alarm' ></i></a>
+          </span>
+          <span style="--i:4;">
+            <a href="#"><i class='bx bxs-map' ></i></a>
+          </span>
+          <span style="--i:5;">
+            <a href="#"><i class='bx bxs-cog' ></i></a>
+          </span>
+        </div>
+      </nav>
+
+    <div id="printer-animation" class="printer-animation">
+        <div class="printer">
+            <input id="button" type="checkbox" />
+            <label class="button" for="button"></label>
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="trace"></div>
+            <div class="paper"></div>
+        </div>
+    </div>
+    <!-- Reproductor de musica-->
+    <div id="jp_container_N" class="jp-video jp-video-270p jp-state-playing" role="application" aria-label="media player" style="left: 0px; height: 175px; bottom: 20px;">
+        <div class="jp-type-playlist">
+            <div id="jquery_jplayer_N" class="jp-jplayer" style="width: 90px; height: 90px;">
+
+                <audio id="jp_audio_0" preload="metadata" src="" title="那英"></audio>
+                <video id="jp_video_0" preload="metadata" title="那英" style="width: 0px; height: 0px;"></video>
+            </div>
+            <div class="jp-gui">
+                <div class="jp-video-play" style="display: none;">
+                    <button class="jp-video-play-icon" role="button" tabindex="0">播放</button>
+                </div>
+                <div class="jp-interface">
+                    <div class="jp-progress">
+                        <div class="jp-seek-bar" style="width: 100%;">
+                            <div class="jp-play-bar" style="overflow: hidden; width: 97.5219%;"></div>
+                        </div>
+                    </div>
+                    <div class="jp-current-time" role="timer" aria-label="time">04:11</div>
+                    <div class="jp-duration" role="timer" aria-label="duration">04:17</div>
+                    <div class="jp-controls-holder">
+                        <div class="jp-controls">
+                            <button class="jp-previous" role="button" tabindex="0">上一曲</button>
+                            <button class="jp-play" role="button" tabindex="0">播放</button>
+                            <button class="jp-next" role="button" tabindex="0">下一曲</button>
+                            <button class="jp-stop" role="button" tabindex="0">暂停</button>
+                        </div>
+                        <div class="jp-volume-controls">
+                            <button class="jp-mute" role="button" tabindex="0">静音</button>
+                            <button class="jp-volume-max" role="button" tabindex="0">最大音量</button>
+                            <div class="jp-volume-bar">
+                                <div class="jp-volume-bar-value" style="width: 10%;"></div>
+                            </div>
+                        </div>
+                        <div class="jp-toggles">
+                            <button class="jp-repeat" role="button" tabindex="0">重复</button>
+                            <button class="jp-shuffle" role="button" tabindex="0">随机</button>
+                            <!--<button class="jp-full-screen" role="button" tabindex="0"></button>-->
+                        </div>
+                    </div>
+                    <div class="jp-details" style="display: none;">
+                        <div class="jp-title" aria-label="title">那英</div>
+                    </div>
+                </div>
+            </div>
+            <div class="jp-playlist">
+                <div class="jp-playlist-box" style="height: 80px;">
+                    <ul style="height: 1000px; display: block; top: 0px;">
+                        <li>
+                            <div>
+                                <a href="javascript:;" class="jp-playlist-item-remove">×</a>
+                                <a href="javascript:;" class="jp-playlist-item" tabindex="0">默 <span class="jp-artist" style="transform: rotate(180deg);"> - 那英</span></a>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div>
+                                <a href="javascript:;" class="jp-playlist-item-remove">×</a>
+                                <a href="javascript:;" class="jp-playlist-item" tabindex="0">Ellens Gesang III D839 <span class="jp-artist" style="transform: rotate(180deg);"> - Geoffrey Parsons</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="javascript:;" class="jp-playlist-item-remove">×</a>
+                                <a href="javascript:;" class="jp-playlist-item" tabindex="0">Fire <span class="jp-artist" style="transform: rotate(180deg);"> - Said The Sky</span></a>
+                            </div>
+                        </li>
+                        <li class="jp-playlist-current" style="display: list-item;">
+                            <div>
+                                <a href="javascript:;" class="jp-playlist-item-remove">×</a>
+                                <a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">兰若词 <span class="jp-artist" style="transform: rotate(180deg);"> - 刘亦菲</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jp-no-solution" style="display: none;">
+                <span style="transform: rotate(180deg);">升级需要</span> 您浏览器赞不支持播放，请更新版本
+                <a href="" target="_blank">Flash插件</a>.
+            </div>
+        </div>
+        <!--scrollBar-->
+        <div class="scrollBar" style="display: block;">
+            <div class="bar" style="top: 0px;"></div>
+        </div>
+        <!--Folded-->
+        <button type="button" class="folded_bt" title="点击收缩" id="btnfold" style="top: 52px;">
+            <span style="transform: rotate(180deg);"></span>
+        </button>
+        <div id="listRemove" style="display: block;"></div>
+        <!--ListClose-->
+        <div id="listClose"></div>
+        <!--ListClose-->
+    </div>
+    <script>
+
+        // getting HTML elements
+    const nav = document.querySelector("nav"),
+        toggleBtn = nav.querySelector(".toggle-btn");
+
+    toggleBtn.addEventListener("click" , () =>{
+        nav.classList.toggle("open");
+    });
+ // js code to make draggable nav
+        function onDrag({movementY}) { //movementY gets mouse vertical value
+          const navStyle = window.getComputedStyle(nav), //getting all css style of nav
+                navTop = parseInt(navStyle.top), // getting nav top value & convert it into string
+                navHeight = parseInt(navStyle.height), // getting nav height value & convert it into string
+                windHeight = window.innerHeight; // getting window height
+
+    nav.style.top = navTop > 0 ? `${navTop + movementY}px` : "1px";
+        if(navTop > windHeight - navHeight){
+            nav.style.top = `${windHeight - navHeight}px`;
+        }
+    }
+
+    //this function will call when user click mouse's button and  move mouse on nav
+    nav.addEventListener("mousedown", () =>{
+        nav.addEventListener("mousemove", onDrag);
+    });
+
+    //these function will call when user relase mouse button and leave mouse from nav
+        nav.addEventListener("mouseup", () =>{
+            nav.removeEventListener("mousemove", onDrag);
+        });
+        nav.addEventListener("mouseleave", () =>{
+            nav.removeEventListener("mousemove", onDrag);
+        });
+    </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!--播放器js-->
+    <script src="js/player.js"></script>
+    <script src="js/playlist.js"></script>
+    <script src="js/player_database.js"></script>
+
+</body>
+</html>
